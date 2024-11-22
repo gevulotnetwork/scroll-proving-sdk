@@ -1838,6 +1838,16 @@ dependencies = [
 ]
 
 [[package]]
+name = "gevulot-scroll-sdk"
+version = "0.1.0"
+source = "git+https://github.com/gevulotnetwork/gevulot-scroll-sdk.git?branch=master#c13cc17f1f0e7ea50f2840fbf5a0450bb558aa67"
+dependencies = [
+ "async-trait",
+ "reqwest 0.12.4",
+ "serde",
+]
+
+[[package]]
 name = "gimli"
 version = "0.28.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -4030,6 +4040,7 @@ dependencies = [
  "ethers-core 2.0.7 (git+https://github.com/scroll-tech/ethers-rs.git?branch=v2.0.7)",
  "ethers-providers 2.0.7 (git+https://github.com/scroll-tech/ethers-rs.git?branch=v2.0.7)",
  "futures",
+ "gevulot-scroll-sdk",
  "halo2_proofs",
  "hex",
  "http 1.1.0",

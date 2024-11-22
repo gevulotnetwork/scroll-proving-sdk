@@ -47,3 +47,6 @@ tracing-subscriber = { version = "0.3.18", features = ["env-filter"] }
 axum = "0.6.0"
 dotenv = "0.15"
 rocksdb = "0.20"
+
+[dev-dependencies]
+gevulot-scroll-sdk = { git = "https://github.com/gevulotnetwork/gevulot-scroll-sdk.git", branch = "master", default-features = false, features = ["client"] }
