@@ -1840,7 +1840,7 @@ dependencies = [
 [[package]]
 name = "gevulot-scroll-sdk"
 version = "0.1.0"
-source = "git+https://github.com/gevulotnetwork/gevulot-scroll-sdk.git?branch=master#c13cc17f1f0e7ea50f2840fbf5a0450bb558aa67"
+source = "git+https://github.com/gevulotnetwork/gevulot-scroll-sdk.git?branch=master#259706160cfc3dee0415367c064061fa8b5728ea"
 dependencies = [
  "async-trait",
  "reqwest 0.12.4",
